@@ -14,6 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    color: #fff;
 }
 
 .water-tracker h2 {
@@ -21,7 +22,7 @@ body {
 }
 
 .water-tracker p {
-    color: #dfe6ff;
+    color: #fff;
 }
 
 .water-tracker .total {
@@ -33,9 +34,15 @@ body {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.water-tracker input[type="number"]::placeholder {
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .water-tracker button {
@@ -62,12 +69,12 @@ body {
 }
 
 .water-tracker button.goal {
-    background-color: #00c2a8;
-    color: #00302a;
+    background-color: #00806f;
+    color: #fff;
 }
 
 .water-tracker button.goal:hover {
-    background-color: #00a891;
+    background-color: #006b5d;
 }
 
 .water-tracker .goal-section {
