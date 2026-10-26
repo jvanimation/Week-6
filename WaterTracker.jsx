@@ -48,7 +48,7 @@ function WaterTracker() {
 
     return (
         <div className="water-tracker">
-            <h1>Water Tracker</h1>
+            <h1>💧Water Tracker💧</h1>
             <p>Water is life, hydrate regularly.</p>
             <input
                 type="number"
