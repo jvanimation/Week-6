@@ -48,8 +48,8 @@ function WaterTracker() {
 
     return (
         <div className="water-tracker">
-            <h2>Water Tracker</h2>
-            <p>Track your daily water intake here.</p>
+            <h1>Water Tracker</h1>
+            <p>Water is life, hydrate regularly.</p>
             <input
                 type="number"
                 placeholder="Enter amount of water (ml)"
